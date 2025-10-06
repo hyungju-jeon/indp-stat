@@ -15,7 +15,7 @@ import plotly.express as px
 from scipy import stats
 import streamlit as st
 
-st.set_page_config(page_title="Interactive & Composite Distributions", layout="wide")
+st.set_page_config(page_title="INDP 2025 - Distributions", layout="wide")
 
 # Soft color palette inspired by seaborn
 SOFT_COLORS = {
@@ -1041,4 +1041,3 @@ else:
     )
     st.plotly_chart(fig, use_container_width=True)
 
-st.caption("© Interactive Distribution Explorer — Teaching Tool for Statistical Intuition.")
